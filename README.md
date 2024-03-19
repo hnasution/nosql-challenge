@@ -68,25 +68,25 @@ any establishments within the Dover Local Authority from the database, and check
 1. Use  update_many  to convert  latitude  and  longitude  to decimal numbers.
 2. Use  update_many  to convert  RatingValue  to integer numbers.
 
-Part 3: Exploratory Analysis
+## Part 3: Exploratory Analysis
 Eat Safe, Love has speci c questions they want you to answer, which will help them  nd the locations they wish to visit and avoid.
 Use  NoSQL_analysis_starter.ipynb  for this section of the challenge.
 Some notes to be aware of while you are exploring the dataset:
 RatingValue  refers to the overall rating decided by the Food Authority and ranges from 1-5. The higher the value, the better the rating.
 
-Question 1. Which establishments have a hygiene score equal to 20?
-Answer: There are 41 documents in the result
+## Question 1. Which establishments have a hygiene score equal to 20?
+# Answer: There are 41 documents in the result
 
-Question 2. Which establishments in London have a `RatingValue` greater than or equal to 4?
-Answer: There are 33 establishments in London with a RatingValue greater than or equal to 4.
+## Question 2. Which establishments in London have a `RatingValue` greater than or equal to 4?
+# Answer: There are 33 establishments in London with a RatingValue greater than or equal to 4.
 
-Question 3. What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
-Answer: 
+## Question 3. What are the top 5 establishments with a `RatingValue` rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+## Answer: 
 1. Ancient and Brave
 2. Texaco Service Station
 3. Eltham Green School Nursery Ltd	
 4. Gill's eells
 5. Monkey Puzzle Eltham
 
-Question 4. How many establishments in each Local Authority area have a hygiene score of 0?
-Answer: 55
+## Question 4. How many establishments in each Local Authority area have a hygiene score of 0?
+# Answer: 55
